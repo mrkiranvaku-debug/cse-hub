@@ -1,0 +1,45 @@
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# =========================
+# Java / Spring Boot
+# =========================
+backend/target/
+*.class
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Uploaded / Runtime Files
+# =========================
+backend/uploads/
+uploads/
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
